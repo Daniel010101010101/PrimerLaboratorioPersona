@@ -13,19 +13,19 @@ namespace Persona.Negocio
 
         public String Hablar(ClsPersona persona)
         {
-            return "La Persona " + persona.Nombre + "esta hablando sobre la segunda guerra mundial ";
+            return "La Persona " + persona.Nombre + " esta hablando sobre la segunda guerra mundial ";
         }
         public String Caminar(ClsPersona persona)
         {
-            return "La Persona " + persona.Nombre + "Esta caminando por el barrio ";
+            return "La Persona " + persona.Nombre + " esta caminando por el barrio ";
         }
         public String Reir(ClsPersona persona)
         {
-            return "La Persona " + persona.Nombre + "Esta riendo con Franklin ";
+            return "La Persona " + persona.Nombre + " esta riendo con Franklin ";
         }
         public String Observar(ClsPersona persona)
         {
-            return "La Persona " + persona.Nombre + "Esta observando a su Crush UwU ";
+            return "La Persona " + persona.Nombre + " esta observando a su Crush UwU ";
         }
 
     }
